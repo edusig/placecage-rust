@@ -108,8 +108,8 @@ fn get_image(
 
     let current_dir = env::current_dir()?;
     let cur_path = current_dir.into_os_string().into_string().unwrap();
-    let input_dir = format!("{cur_path}/images/source/{subject}/{kind}/");
-    let output_dir = format!("{cur_path}/images/_gen/{subject}/{kind}/");
+    let input_dir = format!("{cur_path}/public/images/source/{subject}/{kind}/");
+    let output_dir = format!("{cur_path}/public/images/_gen/{subject}/{kind}/");
     fs::create_dir_all(&output_dir)?;
 
     let image_count = get_image_count(subject, kind);

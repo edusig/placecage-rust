@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="twitter:card" content="summary" />
+    <meta
+      property="og:url"
+      content="https://placecage.eduardociciliato.com.br"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Place Cage" />
+    <title>Place Cage - A fun placeholder</title>
+    <meta name="robots" content="index,follow" />
+    <meta name="description" content="A fun placeholder" />
+    <meta property="og:title" content="Place Cage" />
+    <meta property="og:description" content="A fun placeholder" />
+    <style>
+        body {
+            font-family: sans-serif;
+            font-size: 1rem;
+            line-height: 1.5;
+            color: #333;
+            margin: 0;
+        }
+        main {
+            max-width: 1024px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+        section {
+            margin-bottom: 2rem;
+            display: flex;
+            justify-content: space-between;
+            gap: 2rem;
+        }
+        section > div {
+            width: 100%;
+        }
+        section img {
+            width: 300px;
+            height: 200px;
+            flex-shrink: 0;
+        }
+        h1 {
+            text-align: center;
+        }
+        h4 {
+            margin-bottom: 0;
+        }
+        ul {
+            margin-top: 0;
+        }
+        pre {
+            background-color: #eee;
+            padding: 0.5rem 1rem;
+            border-radius: 0.25rem;
+            text-align: center;
+        }
+        pre a {
+            text-decoration: none;
+        }
+        @media screen and (max-width: 1024px) {
+            section {
+                flex-direction: column;
+            }
+            section img {
+                margin-inline: auto;
+            }
+        }
+        footer {
+            margin-top: 2rem;
+            padding: 1rem;
+            background-color: #eee;
+            text-align: center;
+        }
+    </style>
+  </head>
+  <body>
+    <main>
+        <h1 class="text-center">Place Cage</h1>
+        <section>
+            <div>
+                <h2>Basic Usage</h2>
+                <p>Just add your desired image size (width & height) after our URL, and you'll get a image of cage with that size.</p>
+                  <pre><a target="_blank" href="https://placecage.eduardociciliato.com.br/300/200">https://placecage.eduardociciliato.com.br/300/200</a></pre>
+            </div>
+            <img src="/300/200" alt="Place Cage" width="300" height="200" />
+        </section>
+        <section>
+            <div>
+                <h2>Change the subject</h2>
+                <p>Add your desired subject before the width and height.</p>
+                <h4>Available subjects:</h4>
+                <ul>
+                  <li>cage</li>
+                  <li>murray</li>
+                  <li>segall</li>
+                </ul>
+                <pre><a target="_blank" href="https://placecage.eduardociciliato.com.br/murray/300/200">https://placecage.eduardociciliato.com.br/murray/300/200</a></pre>
+            </div>
+            <img src="/murray/300/200" alt="Place Cage" width="300" height="200" />
+        </section>
+        <section>
+            <div>
+                <h2>Cage variations</h2>
+                <p>Add your desired variation after cage.</p>
+                <h4>Available variations:</h4>
+                <ul>
+                  <li>default</li>
+                  <li>crazy</li>
+                  <li>gif</li>
+                </ul>
+                <pre><a target="_blank" href="https://placecage.eduardociciliato.com.br/cage/gif/300/200">https://placecage.eduardociciliato.com.br/cage/gif/300/200</a></pre>
+            </div>
+            <img src="/cage/gif/300/200" alt="Place Cage" width="300" height="200" />
+        </section>
+        <h2>Why?</h2>
+        <p>After the end of the Heroku free plan the original <a rel="nofollow noreferrer" target="_blank" href="https://www.placecage.com">https://www.placecage.com</a> website went down. (<a target="_blank" rel="nofollow noreferrer" href="https://github.com/davecowart/placecage/issues/13">See github issue about it</a>)</p>
+        <p>I used it a lot while working with frontend before the company designer decided the final images and it was really easy to spot and replace this kind of placeholder before deploying to production.</p>
+        <h2>Contribute</h2>
+        <p>If you would like to have more images or support for more variations or image effects (i.e. blur, grayscale, etc...) feel free to make a contribution to the <a target="_blank" href="https://github.com/edusig/placecage-rust">official github repo</a>.</p>
+        <p>This is also a learning exercise for me to learn a little more Rust XD.</p>
+      </div>
+    </main>
+    <footer>
+      <p>If you need any help feel free to DM me on twitter <a target="_blank" rel="nofollow norefferer" href="https://twitter.com/educiciliato">@educiciliato</a></p>
+      <p>Made with ❤️ by <a target="_blank" href="https://eduardociciliato.com.br">Eduardo Ciciliato</a></p>
+    </footer>
+  </body>
+</html>
