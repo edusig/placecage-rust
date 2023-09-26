@@ -1,6 +1,6 @@
 # Placecage Rust
 
-<https://placecage.eduardociciliato.com.br>
+<!-- <https://placecage.eduardociciliato.com.br>(not up yet.) -->
 
 ## Running locally
 
